@@ -32,11 +32,7 @@ export default {
   data: function () {
     return {
       files: [],
-      groupedWords: [
-        { name: "you", amount: 900 },
-        { name: "he", amount: 853 },
-        { name: "i", amount: 1234 },
-      ],
+      groupedWords: [],
     };
   },
   methods: {
